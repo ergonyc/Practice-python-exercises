@@ -10,7 +10,8 @@
 
 import os.path
 import matplotlib.pyplot as plt
-import numpy as npcolumns={'points': 'score'}
+import numpy as np
+
 import pandas as pd
 
 
