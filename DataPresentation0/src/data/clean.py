@@ -8,7 +8,7 @@ def fix_age1stcode(years_):
         return 85.
     else:
         return years_
-        
+
 def fix_years_coding(years_):
     # - years coding, years experience: `YearsCode` -> `nYearsCode`, change "Less than 1 year" to 1/10000 and "More than 50" to 55.
     # - years pro:`YearsCodePro` -> `nYearsPro`
@@ -29,6 +29,7 @@ def fix_age(years_):
         return np.NaN
     else:
         return years_
+
 
 # Convert Age to generation with 2019 as current time reference
 def find_gen(age):
